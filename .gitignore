@@ -26,5 +26,6 @@ yarn-error.log*
 
 # Tailwind processed CSS 
 index.css
-.idea
 .docker-ignore
+# Local Netlify folder
+.netlify
