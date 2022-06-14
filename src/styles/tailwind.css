@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
 @tailwind base;
 
 /* Your own custom base styles */
+[data-theme=dark] input:-webkit-autofill,
+[data-theme=dark] input:-webkit-autofill:hover,
+[data-theme=dark] input:-webkit-autofill:active,
+[data-theme=dark] input:-webkit-autofill:focus {
+    background-color: transparent !important;
+    color: white !important;
+    -webkit-box-shadow: 0 0 0 1000px #121721 inset !important;
+    -webkit-text-fill-color: #555555 !important;
+}
 
 /* Start purging... */
 @tailwind components;
@@ -13,3 +24,71 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+[data-theme=light] .toggle:hover,
+[data-theme=dark] .toggle:hover {
+    @apply md:bg-secondary
+}
+
+[data-theme=devjobs-dark] .btn.modal-button svg {
+    @apply fill-white
+}
+
+.btn {
+    @apply capitalize font-bold text-lg rounded-md
+}
+
+.btn-primary {
+    @apply hover:bg-[#8c95f0] text-white;
+}
+
+.btn-accent {
+    @apply text-primary
+}
+
+[data-theme=dark] .btn-accent {
+    @apply md:bg-[#2d3542] desktop:hover:bg-[#656b74] md:text-white;
+}
+
+.btn-accent:hover {
+    @apply border-none bg-[#bcc1ef]
+}
+
+.divider {
+    @apply m-0
+}
+
+.checkbox {
+    @apply bg-[#E7E8E9] border-none desktop:hover:bg-[#8c95f0]
+}
+
+.modal-box {
+    @apply bg-base-200
+}
+
+.modal-open .modal-box, .modal-toggle:checked + .modal .modal-box, .modal:target .modal-box {
+    @apply -translate-y-16
+}
+
+ol {
+    list-style: none;
+    counter-reset: item;
+    padding-left: 1rem;
+}
+
+ol li {
+    counter-increment: item;
+    position: relative;
+}
+
+
+ol li:before {
+    position: absolute;
+    display: inline-block;
+    margin-right: 1rem;
+    content: counter(item);
+    left: -1.5rem;
+    font-weight: bold;
+    color: #5964E0;
+    width: 1rem;
+    text-align: center;
+}

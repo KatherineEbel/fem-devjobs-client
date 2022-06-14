@@ -1,0 +1,19 @@
+version: '3.8'
+networks:
+  webproxy:
+    external: true
+
+services:
+  app:
+    networks:
+      - webproxy
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./.env.local:/app/.env.local
+    environment:
+      VIRTUAL_HOST: devjobs.kathyebel.dev
+      LETSENCRYPT_HOST: devjobs.kathyebel.dev
+      LETSENCRYPT_EMAIL: kathyebel@icloud.com
+      NODE_ENV: production

@@ -1,0 +1,190 @@
+{
+  "data": {
+    "jobs": {
+      "results": [
+        {
+          "id": "1",
+          "postedAt": "5h ago",
+          "contract": "Full Time",
+          "position": "Senior Software Engineer",
+          "location": "United Kingdom",
+          "logoBackground": "hsl(36, 87%, 49%)",
+          "logoUrl": "http://localhost:9000/logos/scoot.svg",
+          "company": {
+            "id": "1",
+            "name": "Scoot",
+            "__typename": "Company"
+          },
+          "__typename": "Job"
+        },
+        {
+          "id": "2",
+          "postedAt": "20h ago",
+          "contract": "Part Time",
+          "position": "Haskell and PureScript Dev",
+          "location": "United States",
+          "logoBackground": "hsl(12, 79%, 52%)",
+          "logoUrl": "http://localhost:9000/logos/blogr.svg",
+          "company": {
+            "id": "2",
+            "name": "Blogr",
+            "__typename": "Company"
+          },
+          "__typename": "Job"
+        },
+        {
+          "id": "3",
+          "postedAt": "1d ago",
+          "contract": "Part Time",
+          "position": "Midlevel Back End Engineer",
+          "location": "Russia",
+          "logoBackground": "hsl(235, 10%, 23%)",
+          "logoUrl": "http://localhost:9000/logos/vector.svg",
+          "company": {
+            "id": "11",
+            "name": "Vector",
+            "__typename": "Company"
+          },
+          "__typename": "Job"
+        },
+        {
+          "id": "4",
+          "postedAt": "2d ago",
+          "contract": "Full Time",
+          "position": "Senior Application Engineer",
+          "location": "Japan",
+          "logoBackground": "hsl(227, 62%, 48%)",
+          "logoUrl": "http://localhost:9000/logos/officelite.svg",
+          "company": {
+            "id": "8",
+            "name": "Office Lite",
+            "__typename": "Company"
+          },
+          "__typename": "Job"
+        },
+        {
+          "id": "5",
+          "postedAt": "2d ago",
+          "contract": "Part Time",
+          "position": "Remote DevOps Engineer",
+          "location": "Japan",
+          "logoBackground": "hsl(216, 46%, 14%)",
+          "logoUrl": "http://localhost:9000/logos/pod.svg",
+          "company": {
+            "id": "9",
+            "name": "Pod",
+            "__typename": "Company"
+          },
+          "__typename": "Job"
+        },
+        {
+          "id": "6",
+          "postedAt": "4d ago",
+          "contract": "Part Time",
+          "position": "Desktop Support Manager",
+          "location": "Germany",
+          "logoBackground": "hsl(295, 55%, 21%)",
+          "logoUrl": "http://localhost:9000/logos/creative.svg",
+          "company": {
+            "id": "4",
+            "name": "Creative",
+            "__typename": "Company"
+          },
+          "__typename": "Job"
+        },
+        {
+          "id": "7",
+          "postedAt": "1w ago",
+          "contract": "Full Time",
+          "position": "iOS Engineer",
+          "location": "United States",
+          "logoBackground": "hsl(254, 71%, 45%)",
+          "logoUrl": "http://localhost:9000/logos/pomodoro.svg",
+          "company": {
+            "id": "10",
+            "name": "Pomodoro",
+            "__typename": "Company"
+          },
+          "__typename": "Job"
+        },
+        {
+          "id": "8",
+          "postedAt": "1w ago",
+          "contract": "Full Time",
+          "position": "Senior EJB Developer",
+          "location": "United Kingdom",
+          "logoBackground": "hsl(218, 58%, 31%)",
+          "logoUrl": "http://localhost:9000/logos/maker.svg",
+          "company": {
+            "id": "6",
+            "name": "Maker",
+            "__typename": "Company"
+          },
+          "__typename": "Job"
+        },
+        {
+          "id": "9",
+          "postedAt": "1w ago",
+          "contract": "Part Time",
+          "position": "Senior Frontend Developer",
+          "location": "Singapore",
+          "logoBackground": "hsl(29, 60%, 87%)",
+          "logoUrl": "http://localhost:9000/logos/coffeeroasters.svg",
+          "company": {
+            "id": "3",
+            "name": "Coffeeroasters",
+            "__typename": "Company"
+          },
+          "__typename": "Job"
+        },
+        {
+          "id": "10",
+          "postedAt": "2w ago",
+          "contract": "Freelance",
+          "position": "App & Website Designer",
+          "location": "United States",
+          "logoBackground": "hsl(0, 0%, 12%)",
+          "logoUrl": "http://localhost:9000/logos/mastercraft.svg",
+          "company": {
+            "id": "7",
+            "name": "Mastercraft",
+            "__typename": "Company"
+          },
+          "__typename": "Job"
+        },
+        {
+          "id": "11",
+          "postedAt": "1mo ago",
+          "contract": "Part Time",
+          "position": "Fullstack Developer",
+          "location": "New Zealand",
+          "logoBackground": "hsl(157, 57%, 50%)",
+          "logoUrl": "http://localhost:9000/logos/crowdfund.svg",
+          "company": {
+            "id": "5",
+            "name": "Crowdfund",
+            "__typename": "Company"
+          },
+          "__typename": "Job"
+        },
+        {
+          "id": "12",
+          "postedAt": "1mo ago",
+          "contract": "Part Time",
+          "position": "Technical Lead Engineer",
+          "location": "United Kingdom",
+          "logoBackground": "hsl(22, 89%, 52%)",
+          "logoUrl": "http://localhost:9000/logos/typemaster.svg",
+          "company": {
+            "id": "12",
+            "name": "Typemaster",
+            "__typename": "Company"
+          },
+          "__typename": "Job"
+        }
+      ],
+      "count": 15,
+      "__typename": "JobPagination"
+    }
+  }
+}
